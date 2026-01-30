@@ -1,0 +1,7 @@
+import { User } from '../types/models'
+
+export const currentUser: User = {
+  id: 'user-001',
+  name: 'Kacy Leveck',
+  email: 'kacy@hazon.dev',
+}
