@@ -82,7 +82,7 @@ npx electron-builder
 
 ## 🤝 Contributing
 
-Contributions welcome! See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
+Contributions welcome!
 
 1. Fork the repo
 2. Create a feature branch
