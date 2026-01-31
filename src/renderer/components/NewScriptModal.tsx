@@ -54,6 +54,10 @@ export default function NewScriptModal({ isOpen, onCreate, onClose }: Props) {
         <div 
             className="fixed inset-0 flex items-center justify-center"
             style={{ zIndex: 9999, pointerEvents: 'auto' }}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="new-script-modal-title"
+            data-testid="new-script-modal"
         >
             {/* Backdrop */}
             <div 
@@ -69,7 +73,7 @@ export default function NewScriptModal({ isOpen, onCreate, onClose }: Props) {
                 onClick={e => e.stopPropagation()}
                 style={{ pointerEvents: 'auto' }}
             >
-                <h2 className="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">
+                <h2 id="new-script-modal-title" className="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">
                     📄 New Script
                 </h2>
 

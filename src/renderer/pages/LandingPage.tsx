@@ -40,6 +40,7 @@ export default function LandingPage() {
             <button
               onClick={() => setModalOpen(true)}
               className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded"
+              data-testid="new-script-btn"
             >
               Start New Script
             </button>
