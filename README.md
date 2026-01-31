@@ -4,7 +4,9 @@
 
 Hazon is a free desktop application for screenwriters who want a clean, distraction-free environment to write screenplays in proper industry-standard format.
 
-![Hazon Screenshot](docs/screenshot.png)
+![Hazon Dark-mode Screenshot](docs/screenshotOne.png)
+![Hazon Home-Screen Screenshot](docs/screenshotTwo.png)
+![Hazon Script Editor Screenshot](docs/screenshotThree.png)
 
 ---
 
