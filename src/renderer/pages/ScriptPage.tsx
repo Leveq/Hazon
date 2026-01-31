@@ -52,6 +52,32 @@ export default function ScriptPage() {
     }
   }
 
+  const handleExportPDF = async () => {
+    if (!script) return
+    try {
+      const result = await window.api.export.pdf(script.id)
+      if (result.success && result.filePath) {
+        alert(`PDF exported to:\n${result.filePath}`)
+      }
+    } catch (error) {
+      console.error('Export failed:', error)
+      alert('Failed to export PDF')
+    }
+  }
+
+  const handleExportFountain = async () => {
+    if (!script) return
+    try {
+      const result = await window.api.export.fountain(script.id)
+      if (result.success && result.filePath) {
+        alert(`Fountain file exported to:\n${result.filePath}`)
+      }
+    } catch (error) {
+      console.error('Export failed:', error)
+      alert('Failed to export Fountain file')
+    }
+  }
+
   // Calculate page stats
   const pageStats = useMemo(() => {
     return calculatePageStats(script?.lines || [])
@@ -97,6 +123,23 @@ export default function ScriptPage() {
           </div>
           <div className="text-sm text-gray-500 dark:text-gray-400">
             Saved {new Date(script.updatedAt).toLocaleTimeString()}
+          </div>
+          {/* Export Buttons */}
+          <div className="flex items-center gap-1">
+            <button
+              onClick={handleExportPDF}
+              className="px-3 py-1.5 text-sm bg-red-600 hover:bg-red-700 text-white rounded transition-colors"
+              title="Export as PDF"
+            >
+              📄 PDF
+            </button>
+            <button
+              onClick={handleExportFountain}
+              className="px-3 py-1.5 text-sm bg-purple-600 hover:bg-purple-700 text-white rounded transition-colors"
+              title="Export as Fountain"
+            >
+              ⛲ Fountain
+            </button>
           </div>
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
