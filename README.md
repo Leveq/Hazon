@@ -34,9 +34,10 @@ Download the latest version for your platform:
 
 | Platform | Download |
 |----------|----------|
-| **Windows** | [Hazon-1.0.0-Setup.exe](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0-Setup.exe) |
-| **macOS** | [Hazon-1.0.0.dmg](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0.dmg) |
-| **Linux** | [Hazon-1.0.0.AppImage](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0.AppImage) |
+| **Windows** | [Hazon-Setup-1.0.0.exe](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-Setup-1.0.0.exe) |
+| **macOS (Apple Silicon)** | [Hazon-1.0.0-arm64.dmg](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0-arm64.dmg) |
+| **Linux (AppImage)** | [Hazon-1.0.0.AppImage](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0.AppImage) |
+| **Linux (Debian)** | [hazon_1.0.0_amd64.deb](https://github.com/Leveq/Hazon/releases/download/v1.0.0/hazon_1.0.0_amd64.deb) |
 
 Or visit the [Releases](https://github.com/Leveq/Hazon/releases) page for all available downloads.
 
