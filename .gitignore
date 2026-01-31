@@ -10,7 +10,29 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+dist-electron
 *.local
+
+# Build outputs
+release/
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local database (should be in userData, not project root)
+data.json
+
+# Test coverage and reports
+coverage/
+playwright-report/
+test-results/
 
 # Developer docs (not for public repo)
 docs/DEVELOPER.md

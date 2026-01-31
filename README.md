@@ -20,6 +20,9 @@ Hazon is a free desktop application for screenwriters who want a clean, distract
 - **Real-time stats** — Page count, word count, estimated runtime
 - **Dark mode** — Easy on the eyes for late-night writing sessions
 - **Local storage** — Your scripts stay on your computer, no account needed
+- **PDF Export** — Export to industry-standard PDF with proper formatting
+- **Fountain Support** — Import/export .fountain files for interoperability
+- **Auto-Updates** — Get the latest features automatically
 
 ---
 
@@ -74,11 +77,13 @@ npx electron-builder
 
 ## 🗺️ Roadmap
 
-- [ ] Export to PDF
-- [ ] Import/Export .fountain files
+- [x] Export to PDF
+- [x] Import/Export .fountain files  
+- [x] Auto-updates
 - [ ] Outline & index card view
 - [ ] Revision tracking
 - [ ] Statistics & reports
+- [ ] Cloud sync (optional)
 
 ---
 

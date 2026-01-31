@@ -4,8 +4,8 @@ import { build } from 'esbuild'
 async function buildElectron() {
   // ─── Main process (CJS) ───
   await build({
-    entryPoints: ['main.ts'],
-    outfile: 'dist/main.cjs', // or .js, just be consistent
+    entryPoints: ['src/main/main.ts'],
+    outfile: 'dist/main.cjs',
     bundle: true,
     platform: 'node',
     format: 'cjs',
@@ -17,7 +17,7 @@ async function buildElectron() {
 
   // ─── Preload (thin CJS bridge) ───
   await build({
-    entryPoints: ['preload.ts'],
+    entryPoints: ['src/preload/preload.ts'],
     outfile: 'dist/preload.js',
     bundle: false,
     platform: 'node',
