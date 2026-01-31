@@ -17,9 +17,11 @@ setupErrorHandling()
 // Set app name before anything else uses userData path
 app.setName('hazon')
 
-const isDev = process.env.NODE_ENV === 'development'
+// Check if running in development
+// In packaged apps, always load from file. In dev, load from vite server if NODE_ENV is set.
+const isDev = !app.isPackaged && process.env.NODE_ENV === 'development'
 
-logger.info('Starting Hazon...', { isDev, version: app.getVersion() })
+logger.info('Starting Hazon...', { isDev, isPackaged: app.isPackaged, version: app.getVersion() })
 
 // Register all IPC handlers
 registerIpcHandlers()

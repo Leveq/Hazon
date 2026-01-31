@@ -6,6 +6,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   root: '.',
+  base: './', // Use relative paths for Electron file:// protocol
   build: {
     outDir: 'dist',
     rollupOptions: {
