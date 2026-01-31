@@ -6,6 +6,7 @@
   "main": "dist/main.cjs",
   "author": {
     "name": "Leveq",
+    "email": "leveq@users.noreply.github.com",
     "url": "https://github.com/Leveq"
   },
   "description": "A modern, open-source screenwriting application",
