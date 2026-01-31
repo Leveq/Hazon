@@ -28,8 +28,17 @@ Hazon is a free desktop application for screenwriters who want a clean, distract
 
 ## 📥 Installation
 
-### Download (Coming Soon)
-Pre-built installers will be available on the [Releases](https://github.com/Leveq/Hazon/releases) page.
+### Download
+
+Download the latest version for your platform:
+
+| Platform | Download |
+|----------|----------|
+| **Windows** | [Hazon-1.0.0-Setup.exe](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0-Setup.exe) |
+| **macOS** | [Hazon-1.0.0.dmg](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0.dmg) |
+| **Linux** | [Hazon-1.0.0.AppImage](https://github.com/Leveq/Hazon/releases/download/v1.0.0/Hazon-1.0.0.AppImage) |
+
+Or visit the [Releases](https://github.com/Leveq/Hazon/releases) page for all available downloads.
 
 ### Build from Source
 
